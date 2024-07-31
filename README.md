@@ -62,7 +62,7 @@ This corpus is distributed under the Creative Commons Attribution-NonCommercial-
 
 ## Contact
 
-For any questions, feedback, or collaboration inquiries, please reach out to us at [your-email@example.com](mailto:info@asosoft.com).
+For any questions, feedback, or collaboration inquiries, please reach out to us at [info@asosoft.com].
 
 ---
 
