@@ -1,13 +1,13 @@
 
-# CKB Speech Corpus
+# CKB Sentences Corpus for TTS and ASR
 
 ## Overview
 
-The CKB Speech Corpus is a comprehensive dataset of spoken Central Kurdish (CKB), designed to support research and development in speech processing applications. This corpus includes recordings across various topics and domains, offering a rich resource for tasks such as speech recognition, speaker identification, and speech synthesis. The dataset comprises clear and high-quality audio samples recorded from native speakers, ensuring linguistic diversity and accurate representation of the language.
+The CKB Sentences Corpus is a comprehensive dataset designed for various natural language processing (NLP) applications, specifically focusing on Text-to-Speech (TTS) and Automatic Speech Recognition (ASR) systems. This dataset contains 1000 sentences in Central Kurdish (CKB), covering a wide range of topics. The corpus is structured to provide diverse linguistic content, making it an invaluable resource for training and evaluating TTS and ASR models.
 
-## Corpus Composition
+## Corpus Details
 
-The corpus covers a wide range of topics, each represented by a set number of sentences. The following table provides an overview of the topics and the number of recorded sentences per category:
+The corpus includes sentences from the following topics, each contributing a specific number of sentences:
 
 | **Topic**             | **Number of Sentences** |
 |-----------------------|-------------------------|
@@ -29,40 +29,50 @@ The corpus covers a wide range of topics, each represented by a set number of se
 | Normal                | 100                     |
 | **Total**             | **1000**                |
 
-## Features
+## Usage
 
-- **High-Quality Recordings:** Audio samples are recorded in a controlled environment to ensure clarity and quality.
-- **Native Speakers:** All recordings are performed by native CKB speakers, capturing authentic pronunciation and intonation.
-- **Diverse Topics:** The dataset includes a wide range of topics, providing a comprehensive linguistic resource for various applications.
+### Text-to-Speech (TTS)
 
-## Applications
+The corpus can be used to train TTS systems by providing diverse and phonetically rich sentences. It covers a wide range of topics, ensuring that the generated speech can handle various vocabulary and sentence structures. This diversity helps in creating a more natural and intelligible synthetic voice for CKB.
 
-The CKB Speech Corpus is suitable for numerous speech-related research and development projects, including:
+### Automatic Speech Recognition (ASR)
 
-- **Automatic Speech Recognition (ASR):** Training and evaluating ASR systems for CKB.
-- **Text-to-Speech (TTS):** Developing TTS systems to convert written CKB text into spoken words.
-- **Speaker Identification and Verification:** Analyzing speaker-specific features for authentication systems.
-- **Linguistic Research:** Studying the phonetic and phonological aspects of CKB.
+For ASR, this corpus serves as a valuable resource for training and evaluating models. The sentences include a wide range of phonetic and syntactic structures, which are essential for developing robust ASR systems capable of understanding different accents and speaking styles in CKB.
 
-## Access and Usage
+### Other Applications
 
-The corpus is available for academic, research, and commercial use. To access the dataset, please clone the repository or download the files directly from the links provided. Users must comply with the data usage policy and provide appropriate citations when using the dataset in publications or projects.
+In addition to TTS and ASR, the CKB Sentences Corpus can be utilized for:
 
-\`\`\`bash
-git clone https://github.com/yourusername/ckb-speech-corpus.git
-\`\`\`
+- **Language Modeling:** Developing models that can predict the next word or sentence in a sequence.
+- **Speech Translation:** Training models to translate spoken CKB into other languages.
+- **Voice Conversion:** Converting one speaker's voice to another within the CKB language.
+- **Speech Synthesis Research:** Analyzing and improving the quality of synthetic speech.
+
+## How to Access
+
+You can access the corpus by cloning this repository or downloading the dataset directly from the provided links. Please adhere to the data usage policies and cite this repository if you use the data in your research.
+
+```bash
+git clone https://github.com/yourusername/ckb-sentences-corpus.git
+```
 
 ## Contribution
 
-We encourage contributions from the community to enhance and expand this dataset. Contributions can include additional recordings, corrections, or annotations. Please submit a pull request or open an issue for any contributions or suggestions.
+We welcome contributions to enhance the quality and scope of this corpus. If you have suggestions for new sentences, corrections, or additional topics, please submit a pull request or open an issue.
 
 ## License
 
-This corpus is distributed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Citation
+
+If you use this corpus in your research, please cite the following paper:
+
+> Abdullah, A.A., Veisi, H. and Rashid, T., 2024. Breaking Walls: Pioneering Automatic Speech Recognition for Central Kurdish: End-to-End Transformer Paradigm. arXiv preprint arXiv:2406.02561.
 
 ## Contact
 
-For any questions, feedback, or collaboration inquiries, please reach out to us at [info@asosoft.com].
+For any questions or additional information, please contact us at [info@asosoft.com].
 
 ---
 
